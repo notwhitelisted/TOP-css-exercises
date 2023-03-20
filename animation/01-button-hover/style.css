@@ -11,9 +11,25 @@
 button {
   border-radius: 8px;
   border: none;
-  background-color: #2563eb;
+  background-color: rgb(241, 128, 241);
+  color: antiquewhite;
+  font-size: 18px;
+  padding: 16px 24px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+button:hover {
+  border-radius: 8px;
+  border: none;
+  background-color: blue;
   color: white;
   font-size: 18px;
   padding: 16px 24px;
   text-align: center;
+  transform: scale(1.1);
 }
